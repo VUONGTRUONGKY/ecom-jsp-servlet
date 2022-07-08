@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	background: #f1f1f1;
+}
+
+.text {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+
+.input {
+	width: 35%;
+	margin-bottom: 1%;
+	
+}

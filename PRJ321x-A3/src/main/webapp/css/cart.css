@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	padding: 10px;
+	background: #f1f1f1;
+}
+
+/* Header/ blog title*/
+table, tr, td {
+	border: 1px black solid;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 1.6vw;
+}
+
+table {
+	margin-top: 2%;
+	width: 100%;
+}
+
+.numberOfProduct {
+	width: 35%;
+}
+
+.price {
+	width: 20%;
+}
+
+.quantity {
+	width: 5%;
+}
+
+.amount {
+	width: 20%;
+}
+
+.delete {
+	width: 20%;
+}
+
+#button {
+	margin-top: 2%;
+}
+
+label {
+	display: inline-block;
+	width: 160px;
+	text-align: right;
+}
+
+.input {
+	padding: 5px 10px;
+}
+/*responsive with screen 800px*/
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+/*responsive with screen 400px*/
+@media screen and (max-width: 400px) {
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+}

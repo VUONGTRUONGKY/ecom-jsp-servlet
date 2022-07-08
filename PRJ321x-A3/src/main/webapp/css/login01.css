@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+
+#container {
+	padding-left: 9em;
+	padding-top: 3em;
+	width: 100%;
+	height: 500px;
+	border: 1px sliver solid;
+}
+
+
+body {
+	width: 100%;
+	font-family: Arial;
+}
+
+#sub {
+	width: 7em;
+	height: 2em;
+	background: red;
+}
+
+#form {
+	width: 40%;
+	text-align: center;
+	float: left;
+	background: white;
+	height: 20em;
+	border: 1px black solid;
+}
+
+#wellcome {
+	width: 50%;
+	text-align: center;
+	background: #0F1130;
+	height: 20em;
+	border: 1px blue solid;
+}
+
+.fname {
+	width: 50%;
+}
+
+.test {
+	color: white;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.text {
+	
+	color: white;
+}
+
+
+/*responsive with screen 800px*/
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+/*responsive with screen 400px*/
+@media screen and (max-width: 400px) {
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+}
+
+
+

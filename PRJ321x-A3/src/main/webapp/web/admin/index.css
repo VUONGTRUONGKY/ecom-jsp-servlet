@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+#contener {
+	background-color: #372D45;
+	height: 850px
+}
+
+#image {
+	width: 100%;
+	height: 100%
+}
+
+#navibar {
+	float: left;
+	width: 20%;
+	background-color: #372D45;
+	height: 200px
+}
+
+#content {
+	float: left;
+	width: 80%
+}
+#logout {
+	float: right;
+	color: while;
+	padding: 5%;
+}
+
+.textlink {
+	padding: 5%;
+}
+
+#wellcome {
+	
+	color: white;
+	font-size: 100%;
+}
+
+.link {
+	text-decoration: none;
+	color: white"
+}
+
+
+
+
+
+
+
+
+

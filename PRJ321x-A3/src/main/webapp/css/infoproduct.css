@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	padding: 10px;
+	background: #f1f1f1;
+}
+.price {
+	
+	color:red;
+}
+
+.img {
+	width: 40%;
+	float: left;
+	clear: both;
+}
+
+.imgName {
+	
+	margin-left: 2%;
+}
+
+.container {
+	float:left;
+	clear: both;
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 0.9em;
+}
+
+.desc {
+	
+	width: 70%;
+	color: red;
+	
+}
+
+.button {
+	
+	 background-color: #4CAF50;
+}
+
+hr {
+	
+	margin-left: 2%;
+	margin-right: 2%;
+}

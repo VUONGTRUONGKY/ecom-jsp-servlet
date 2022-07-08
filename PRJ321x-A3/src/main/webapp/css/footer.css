@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+.box {
+	display: inline;
+	float: left;
+	width: 30%;
+	font-family: Arial;
+	margin: 1%;
+}
+
+.footer {
+	float: left;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	background: #ddd;
+	margin-top: 20px;
+}
+
+h3 {
+	
+	font-size: 2vw;
+}
+p {
+	
+	font-size: 1.5vw;
+}
+
+/*responsive with screen 800px*/
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+/*responsive with screen 400px*/
+@media screen and (max-width: 400px) {
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+}
